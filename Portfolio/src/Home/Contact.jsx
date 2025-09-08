@@ -65,7 +65,7 @@ const Contact = () => {
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-[#E6CFA9] to-transparent mx-auto mb-4"></div>
           <p className="text-lg text-[#E6CFA9] max-w-2xl mx-auto leading-relaxed">
-            Have a project in mind or just want to say hello? I'd love to hear from you. 
+            Have a project in mind or just want to say hello? I'd love to hear from you.
             Drop me a message and let's create something amazing together.
           </p>
         </div>
