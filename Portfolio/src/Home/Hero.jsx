@@ -9,7 +9,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="bg-black min-h-[85vh] pt-18 relative overflow-hidden">
+    <div className="bg-black min-h-[85vh] pt-10 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-2 h-2 bg-[#EEE6CA] rounded-full animate-pulse"></div>

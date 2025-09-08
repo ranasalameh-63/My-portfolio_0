@@ -73,7 +73,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
-            className="text-white hover:text-[#E6CFA9] transition-colors duration-300"
+            className="text-[#E6CFA9] hover:text-[#E6CFA9] transition-colors duration-300"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <svg

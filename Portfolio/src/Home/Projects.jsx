@@ -4,12 +4,12 @@ const ProjectsSection = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
   
   const projects = [
-    { number: "01.", title: "Portfolio Website", description: "A personal portfolio built with React & Tailwind CSS showcasing my skills and projects.", link: "https://github.com/yourusername/portfolio", tech: ["React", "Tailwind CSS", "JavaScript"] },
-    { number: "02.", title: "TaskFlow App", description: "A task management web app for teams with roles, deadlines, and notifications.", link: "https://github.com/yourusername/taskflow", tech: ["Node.js", "MongoDB", "Express"] },
-    { number: "03.", title: "DIY Platform", description: "A web platform offering video tutorials & professional connections for home repairs.", link: "https://github.com/yourusername/diy-platform", tech: ["Vue.js", "Firebase", "Stripe"] },
-    { number: "04.", title: "Hospital System", description: "Full-stack system with patient records, appointments, billing & staff schedules.", link: "https://github.com/yourusername/hospital-management", tech: ["Python", "Django", "PostgreSQL"] },
-    { number: "05.", title: "Bus Booking System", description: "Booking platform for a private bus company with online payments integration.", link: "https://github.com/yourusername/bus-booking", tech: ["PHP", "Laravel", "MySQL"] },
-    { number: "06.", title: "Space News", description: "A news website delivering the latest space-related articles and updates.", link: "https://github.com/yourusername/space-news", tech: ["React", "API", "CSS3"] }
+    { number: "01.", title: "BuildNest", description: "A web platform offering video tutorials & professional connections for home repairs.", link: "https://github.com/ranasalameh-63/BulidNest-Masterpiece.git", tech: ["React","Redux", "Tailwind CSS", "NodeJS","Express JS","MongoDB"] },
+    { number: "02.", title: "Humind", description: "A digital platform for managing employee data, attendance, payroll, and leave.", link: "https://github.com/ranasalameh-63/Humind-Smart-HR-Dashboard.git", tech: ["React", "Tailwind CSS", "NodeJS","Express JS","MongoDB"] },
+    { number: "03.", title: "Al-Joud", description: "online charity platform enabling secure, hassle-free donations to debtors and those in need.", link: "https://github.com/ranasalameh-63/Charity-website.git", tech: ["React JS", "Tailwind" ,"Node JS" , "Express JS" ,  "PostgreSQL"] },
+    { number: "04.", title: "Hospital System", description: "Full-stack system with patient records, appointments, billing & staff schedules.", link: "https://github.com/ranasalameh-63/Lumera-Hospital-System.git", tech: ["NextJS", "Tailwind CSS", "NodeJS","Express JS","MongoDB"] },
+    { number: "05.", title: "Horizon Villas", description: "is a rental system that provides a seamless and intuitive platform with a modern design and user-friendly interface.", link: "https://github.com/ranasalameh-63/Rent-project.git", tech: ["React","Redux", "Tailwind CSS","Firebase"] },
+    { number: "06.", title: "Space News", description: "A news website delivering the latest space-related articles and updates.", link: "https://github.com/ranasalameh-63/SpaceNews-Project.git", tech: ["React", "Tailwind CSS", "NodeJS","Express JS","MongoDB"] }
   ];
 
   return (

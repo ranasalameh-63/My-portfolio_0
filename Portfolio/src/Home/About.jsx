@@ -4,7 +4,7 @@ import AboutImage from '../assets/about.jpg'
 
 const AboutSection = () => {
   return (
-    <section id="about" className="bg-black min-h-screen flex flex-col lg:flex-row items-center justify-center px-6 py-14">
+    <section id="about" className="bg-black min-h-screen flex flex-col lg:flex-row items-center justify-center px-6 py-12">
   {/* Right Content - Image */}
   <div className="lg:w-1/2 w-full mt-12 lg:mt-0 flex justify-center hidden lg:flex">
     <img 
@@ -17,7 +17,7 @@ const AboutSection = () => {
 <div className="lg:w-1/2 w-full text-left lg:pr-12">
         {/* Main Title */}
         <div className="mb-8 lg:mb-12">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6">
             <span className="text-white">About </span>
             <span className="text-[#E6CFA9]">Me</span>
           </h1>
@@ -56,7 +56,7 @@ const AboutSection = () => {
             <span className="text-3xl md:text-4xl font-bold" style={{ color: '#E6CFA9' }}>
               10
             </span>
-            <span className="text-white text-lg md:text-xl ml-3 font-medium">
+            <span className="text-white text-base md:text-lg ml-3 font-medium">
               Projects completed
             </span>
           </div>

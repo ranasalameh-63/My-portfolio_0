@@ -21,7 +21,7 @@ export default function PortfolioFooter() {
           {/* Right side - Social Links */}
           <div className="flex space-x-6">
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:rnasalameh@gmail.com" 
               className="p-2 rounded-full transition-colors duration-300 hover:bg-opacity-20"
               style={{ backgroundColor: '#E6CFA9', color: 'black' }}
               onMouseEnter={(e) => e.target.style.backgroundColor = '#EEE6CA'}
@@ -30,7 +30,7 @@ export default function PortfolioFooter() {
               <Mail size={20} />
             </a>
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/ranasalameh-63" 
               className="p-2 rounded-full transition-colors duration-300 hover:bg-opacity-20"
               style={{ backgroundColor: '#E6CFA9', color: 'black' }}
               onMouseEnter={(e) => e.target.style.backgroundColor = '#EEE6CA'}
@@ -39,22 +39,13 @@ export default function PortfolioFooter() {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://www.linkedin.com/in/rana-salameh-54847624a/" 
               className="p-2 rounded-full transition-colors duration-300 hover:bg-opacity-20"
               style={{ backgroundColor: '#E6CFA9', color: 'black' }}
               onMouseEnter={(e) => e.target.style.backgroundColor = '#EEE6CA'}
               onMouseLeave={(e) => e.target.style.backgroundColor = '#E6CFA9'}
             >
               <Linkedin size={20} />
-            </a>
-            <a 
-              href="https://twitter.com/yourusername" 
-              className="p-2 rounded-full transition-colors duration-300 hover:bg-opacity-20"
-              style={{ backgroundColor: '#E6CFA9', color: 'black' }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = '#EEE6CA'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = '#E6CFA9'}
-            >
-              <Twitter size={20} />
             </a>
           </div>
         </div>
@@ -71,7 +62,7 @@ export default function PortfolioFooter() {
             <a href="#about" className="hover:text-white transition-colors duration-300" style={{ color: '#E6CFA9' }}>
               About
             </a>
-            <a href="#work" className="hover:text-white transition-colors duration-300" style={{ color: '#E6CFA9' }}>
+            <a href="#projects" className="hover:text-white transition-colors duration-300" style={{ color: '#E6CFA9' }}>
               Work
             </a>
             <a href="#contact" className="hover:text-white transition-colors duration-300" style={{ color: '#E6CFA9' }}>

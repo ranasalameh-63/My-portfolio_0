@@ -20,7 +20,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <div id="skills" className="bg-black min-h-screen p-2 sm:p-4 pt-10 sm:pt-20 relative overflow-hidden">
+    <div id="skills" className="bg-black min-h-screen p-2 sm:p-4 pt-3 sm:pt-10 relative overflow-hidden">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-64 h-64 border border-[#E6CFA9] rounded-full"></div>
@@ -67,34 +67,38 @@ const AboutSection = () => {
         </div>
 
         {/* Skills / Technologies Grid */}
-        <div className="mt-8 lg:mt-12">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-0.5 bg-[#E6CFA9]/20 p-0.5 rounded-lg overflow-hidden">
-            {skills.map((skill, index) => (
-              <div
-                key={index}
-                className="aspect-square flex items-center justify-center bg-black text-white hover:bg-gradient-to-br hover:from-[#E6CFA9] hover:to-[#D4B896] hover:text-black transition-all duration-500 group text-xs md:text-sm relative overflow-hidden"
-              >
-                {/* Hover effect background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#E6CFA9]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
-                {/* Subtle border glow effect */}
-                <div className="absolute inset-0 border border-[#E6CFA9]/20 group-hover:border-[#E6CFA9]/40 transition-colors duration-500"></div>
-                
-                <div className="text-center relative z-10 transform group-hover:scale-110 transition-transform duration-300">
-                  <div className="flex flex-col items-center space-y-1 md:flex-row md:space-y-0 md:space-x-2">
-                    <span className="text-lg md:text-xl group-hover:animate-pulse">{skill.icon}</span>
-                    <span className="font-semibold text-xs md:text-sm group-hover:font-bold transition-all duration-300">
-                      {skill.name}
-                    </span>
-                  </div>
-                </div>
+        {/* Skills / Technologies Grid */}
+<div className="mt-8 lg:mt-12">
+  <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 gap-0.5 bg-[#E6CFA9]/20 p-0.5 rounded-lg overflow-hidden">
+    {skills.map((skill, index) => (
+      <div
+        key={index}
+        className="aspect-square flex items-center justify-center bg-black text-white hover:bg-gradient-to-br hover:from-[#E6CFA9] hover:to-[#D4B896] hover:text-black transition-all duration-500 group text-[10px] sm:text-xs md:text-sm relative overflow-hidden"
+      >
+        {/* Hover effect background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#E6CFA9]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-                {/* Subtle shine effect on hover */}
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out"></div>
-              </div>
-            ))}
+        {/* Subtle border glow effect */}
+        <div className="absolute inset-0 border border-[#E6CFA9]/20 group-hover:border-[#E6CFA9]/40 transition-colors duration-500"></div>
+
+        <div className="text-center relative z-10 transform group-hover:scale-110 transition-transform duration-300">
+          <div className="flex flex-col items-center space-y-1 md:flex-row md:space-y-0 md:space-x-2">
+            <span className="text-base sm:text-lg md:text-xl group-hover:animate-pulse">
+              {skill.icon}
+            </span>
+            <span className="font-semibold text-[10px] sm:text-xs md:text-sm group-hover:font-bold transition-all duration-300">
+              {skill.name}
+            </span>
           </div>
         </div>
+
+        {/* Subtle shine effect on hover */}
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out"></div>
+      </div>
+    ))}
+  </div>
+</div>
+
 
         {/* Decorative element */}
         <div className="mt-12 flex justify-center">
