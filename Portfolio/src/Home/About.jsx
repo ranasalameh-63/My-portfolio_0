@@ -4,7 +4,7 @@ import AboutImage from '../assets/about.jpg'
 
 const AboutSection = () => {
   return (
-    <section id="about" className="bg-black min-h-screen flex flex-col lg:flex-row items-center justify-center px-6 py-12">
+    <section id="about" className="bg-black flex flex-col lg:flex-row items-center lg:items-start px-6 py-8 sm:py-12">
   {/* Right Content - Image */}
   <div className="lg:w-1/2 w-full mt-12 lg:mt-0 flex justify-center hidden lg:flex">
     <img 
