@@ -14,7 +14,7 @@ export default function PortfolioFooter() {
               Rana Salameh
             </h3>
             <p className="text-gray-300 text-sm max-w-xs">
-              Creative developer passionate about building beautiful digital experiences.
+              Creative developer passionate about building beautiful digital experiences
             </p>
           </div>
           
